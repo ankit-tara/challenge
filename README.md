@@ -46,10 +46,11 @@ Before you start - if you do not know PHP you can delete all the PHP and simply 
 
 Add another commit with the message "Third party plugins added"
 
-5) Build a bootstrap4 copy of the form (if you are unfamiliar with bootstrap you can use tables but we will weigh candidates that use bootstrap higher). No inline CSS is allowed. All your css must be in the styles.css file
-7) Printing (view)
+5) Build a bootstrap4 copy of the form (if you are unfamiliar with bootstrap you can use tables but we will weigh candidates that use bootstrap higher). 
+No inline CSS is allowed. All your css must be in the styles.css file. Here we are looking for your creativity to make this as elegant as possible.
+7) Printing (new view)
 -- you want the user to be able to print the form once they have completed it. 
--- build a view that allows the user to print their complete form - it should look like the form in the picture and fit perfectly on an A4 size paper
+-- build a view that allows the user to print their complete form - it should look like exactly like the form in the picture and fit perfectly on an A4 size paper
 -- print one application to PDF and save it in the web folder
 
 Commit your code with the message "Complete". Change the git remoe source and upload the git repository to your own github account. Then share the link with us. Do not send us an email with a zip of the code.
