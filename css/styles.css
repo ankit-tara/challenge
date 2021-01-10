@@ -1,0 +1,30 @@
+.form-wrapper{
+    width: 80%;
+    margin: 0 auto 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
+}
+
+.form-wrapper h5{
+    font-weight: bold;
+}
+
+.form-wrapper input,
+.form-wrapper label{
+    font-size: 0.8rem;
+}
+
+.form-wrapper label::before{
+    content: attr(data-no)')';
+    display: inline-block;
+    margin-right: 0.25rem;
+}
+
+.form-wrapper .form-check-inline label::before{
+    display: none;
+}
+
+table,tr,td,th{
+    font-size: 0.8rem;
+}

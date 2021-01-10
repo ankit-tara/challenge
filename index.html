@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,189 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+    <section class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-wrapper">
+                            <h5 class="mb-3">A. BUSINESS INFORMATION (To be completed by the Designated official)</h5>
+                            <div class="form-group">
+                                <label for="" data-no="1">Legal Name</label>
+                                <input type="text" class="form-control" id="" aria-describedby=""
+                                    value="CrowdApex Systems Inc" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="" data-no="2">Business Name(If different from legal name)</label>
+                                <input type="text" class="form-control" id="" aria-describedby="" value="CrowdApex"
+                                    disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="" data-no="3">Civic Address</label>
+                                <input type="text" class="form-control" id="" aria-describedby=""
+                                    value="290 Bremner Blvd, Toronto, ON M5V 3L9, Canada" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="" data-no="4">Mailing Address(If different from civic address)</label>
+                                <input type="text" class="form-control" id="" aria-describedby=""
+                                    value="Wellington St, Ottawa, ON K1A 0A9, Canada" disabled>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="" data-no="5">Telephone Number (Include extension number if
+                                        applicable)</label>
+                                    <input type="text" class="form-control" id="" value="+1 647 944 3023" disabled>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="" data-no="6">Facsimile Number</label>
+                                    <input type="text" class="form-control" id="" value="+1 647 944 3024" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" data-no="7">E-mail</label>
+                                <input type="email" class="form-control" id="" value="hello@controlledgoods.com"
+                                    disabled>
+                            </div>
+                            <div class="form-group">
+                                <div class="table-heading">
+                                    <label class="mb-0" data-no="8" for="">Description of the controlled goods the
+                                        applicant may be
+                                        required to
+                                        examine, possess or
+                                        transfer</label>
+                                    <small id="" class="form-text text-muted">(Refer to the Export Control List
+                                        (ECL))</small>
+                                </div>
+                                <table class="table table-bordered table-hover table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col" colspan="2">Description of Controlled Goods</th>
+                                            <th scope="col">ECL Group no.</th>
+                                            <th scope="col">ECL Item no.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">a</th>
+                                            <td colspan="2">Miliatry Product</td>
+                                            <td>123</td>
+                                            <td>123.1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">b</th>
+                                            <td colspan="2">Silly Product</td>
+                                            <td>345</td>
+                                            <td>321.0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">c</th>
+                                            <td colspan="2">Miliatry Product</td>
+                                            <td>123</td>
+                                            <td>123.1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">d</th>
+                                            <td colspan="2">Silly Product</td>
+                                            <td>345</td>
+                                            <td>321.0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">e</th>
+                                            <td colspan="2">Miliatry Product</td>
+                                            <td>123</td>
+                                            <td>123.1</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="form-wrapper">
+                            <h5 class="mb-3">B. APPLICANT INFORMATION (To be completed by the applicant)</h5>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label data-no="9">Type of Application</label>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" name="typeofapplication" type="radio"
+                                            id="inlineCheckbox1" value="new" checked>
+                                        <label class="form-check-label" for="inlineCheckbox1">New</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" name="typeofapplication" type="radio"
+                                            id="inlineCheckbox2" value="Re-Assessment">
+                                        <label class="form-check-label" for="inlineCheckbox2">Re-Assessment</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label data-no="10">Bussiness Title (Selects all that applies)</label>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="bussiness-title1"
+                                            value="owner">
+                                        <label class="form-check-label" for="bussiness-title1">owner</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="bussiness-title2"
+                                            value="autherize">
+                                        <label class="form-check-label" for="bussiness-title2">Authorize
+                                            Individual</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="bussiness-title3"
+                                            value="official">
+                                        <label class="form-check-label" for="bussiness-title3">Designated
+                                            official</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="bussiness-title4"
+                                            value="officer">
+                                        <label class="form-check-label" for="bussiness-title4">Officer</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="bussiness-title5"
+                                            value="Director">
+                                        <label class="form-check-label" for="bussiness-title5">Director</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="bussiness-title6"
+                                            value="Employee" checked>
+                                        <label class="form-check-label" for="bussiness-title6">Employee</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label data-no="11">Preferred Language of correspondence</label>
+                                </div>
+                                <div class="form-group col-md-9">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" name="language" type="radio"
+                                            id="inlineCheckbox1" value="new" checked>
+                                        <label class="form-check-label" for="inlineCheckbox1">English</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" name="language" type="radio"
+                                            id="inlineCheckbox2" value="Re-Assessment">
+                                        <label class="form-check-label" for="inlineCheckbox2">French</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" onclick="window.print()"
+                                class="btn btn-primary d-print-none">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
